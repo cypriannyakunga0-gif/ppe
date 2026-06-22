@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['helment', 'safetyboot', 'vest']
+
+roboflow:
+  workspace: cyprian-nyakunga
+  project: ppe-detection-2-cvcvl
+  version: dataset
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cyprian-nyakunga/ppe-detection-2-cvcvl/dataset/dataset
